@@ -7,7 +7,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.host}:${eureka.port}/${eureka.name}/
-
-spring:
-  application:
-    name: gateway
