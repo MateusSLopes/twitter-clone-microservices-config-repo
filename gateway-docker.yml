@@ -9,8 +9,8 @@ spring:
       server:
         webmvc:
           routes:
-            - id: users-ms
-              uri: lb://users-ms
+            - id: users
+              uri: lb://users
               predicates:
                 - Path=/users,/users/**
               
