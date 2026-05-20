@@ -1,5 +1,5 @@
 eureka:
-  host: localhost
+  host: discovery
   name: eureka
   port: 8081
 
