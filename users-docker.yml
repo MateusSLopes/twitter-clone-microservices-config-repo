@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://users-db:5432/users_service
-    username: ${USERS_DB_USER}
-    password: ${USERS_DB_PASS}
+    username: ${DB_USER}
+    password: ${DB_PASS}
 eureka:
   host: discovery
   name: eureka
