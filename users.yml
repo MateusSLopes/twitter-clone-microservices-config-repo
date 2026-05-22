@@ -1,6 +1,13 @@
 server:
   port: 0
 
+spring:
+  flyway:
+    enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
 eureka:
   instance:
     prefer-ip-address: true
