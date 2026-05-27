@@ -13,7 +13,10 @@ spring:
               uri: lb://users
               predicates:
                 - Path=/users,/users/**
-              
+            - id: auth
+              uri: lb://users
+              predicates:
+                - Path=/auth,/auth/**
   
 
             
