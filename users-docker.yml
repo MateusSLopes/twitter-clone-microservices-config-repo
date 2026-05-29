@@ -6,6 +6,7 @@ spring:
   security:
     jwt:
       secret: ${JWT_SECRET}
+      expiration-in-minutes: ${JWT_EXPIRATION}
     refresh-token:
       secret: ${REFRESH_TOKEN_SECRET}
 eureka:
