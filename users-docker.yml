@@ -3,6 +3,11 @@ spring:
     url: jdbc:postgresql://users-db:5432/users_service
     username: ${DB_USER}
     password: ${DB_PASS}
+  security:
+    jwt:
+      secret: ${JWT_SECRET}
+    refresh-token:
+      secret: ${REFRESH_TOKEN_SECRET}
 eureka:
   host: discovery
   name: eureka
